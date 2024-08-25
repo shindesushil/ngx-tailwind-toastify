@@ -1,0 +1,26 @@
+{
+  "name": "ngx-tailwind-toastify",
+  "version": "1.0.0",
+  "description": "A customizable toast notifications library using Tailwind CSS.",
+  "author": "Sushil Shinde",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "src/public-api.ts"
+    },
+    "dest": "dist/ngx-tailwind-toastify"
+  },
+  "peerDependencies": {
+    "@angular/common": "^18.2.0",
+    "@angular/core": "^18.2.0",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "autoprefixer": "^10.4.20"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
